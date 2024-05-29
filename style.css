@@ -1,0 +1,48 @@
+.head-line{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.head-line svg{
+  width: 430px;
+}
+.menus{
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-top: 1px solid #ededed;
+  border-bottom: 4px double black;
+}
+.menus button {
+  border: none;
+  background: none;
+  margin: 5px;
+}
+.menus button:hover {
+  background-color: beige;
+}
+.news-img-size{
+  max-width: 100%;
+  max-height: 250px;
+  width: auto;
+}
+.news{
+  border-bottom: 2px solid black;
+}
+.search{
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem 2rem 1rem 0;
+}
+.search input{
+  height: 2rem;
+}
+.search button{
+  height: 2rem;
+}
+.pageNation{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
